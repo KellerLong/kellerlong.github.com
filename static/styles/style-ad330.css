@@ -1,0 +1,669 @@
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+@-webkit-keyframes home-text {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@keyframes home-text {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+@-webkit-keyframes home-block-box {
+  0% {
+    -webkit-transform: rotateY(-45deg) rotateX(45deg);
+            transform: rotateY(-45deg) rotateX(45deg);
+  }
+  20% {
+    -webkit-transform: rotateY(405deg) rotateX(45deg);
+            transform: rotateY(405deg) rotateX(45deg);
+  }
+  80% {
+    -webkit-transform: rotateY(405deg) rotateX(45deg);
+            transform: rotateY(405deg) rotateX(45deg);
+  }
+  100% {
+    -webkit-transform: rotateY(45deg) rotateX(45deg);
+            transform: rotateY(45deg) rotateX(45deg);
+  }
+}
+@keyframes home-block-box {
+  0% {
+    -webkit-transform: rotateY(-45deg) rotateX(45deg);
+            transform: rotateY(-45deg) rotateX(45deg);
+  }
+  20% {
+    -webkit-transform: rotateY(405deg) rotateX(45deg);
+            transform: rotateY(405deg) rotateX(45deg);
+  }
+  80% {
+    -webkit-transform: rotateY(405deg) rotateX(45deg);
+            transform: rotateY(405deg) rotateX(45deg);
+  }
+  100% {
+    -webkit-transform: rotateY(45deg) rotateX(45deg);
+            transform: rotateY(45deg) rotateX(45deg);
+  }
+}
+.home-block,
+.home-block-box,
+.home-block-before,
+.home-block-after,
+.home-block-midden,
+.home-block-left,
+.home-block-right,
+.home-block-top,
+.home-block-bottom {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  border: 6px solid #64b5f6;
+}
+.home-block-body {
+  height: 2.25rem;
+  width: 2.25rem;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home-block-box {
+  box-shadow: none;
+  border: 0;
+  -webkit-perspective-origin: center center;
+          perspective-origin: center center;
+  -webkit-animation: home-block-box 5s infinite linear;
+          animation: home-block-box 5s infinite linear;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateY(45deg) rotateX(45deg);
+          transform: rotateY(45deg) rotateX(45deg);
+}
+.home-block-before {
+  -webkit-transform: translateZ(-0.75rem);
+          transform: translateZ(-0.75rem);
+}
+.home-block-after {
+  -webkit-transform: translateZ(0.75rem);
+          transform: translateZ(0.75rem);
+}
+.home-block-midden {
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+}
+.home-block-left {
+  -webkit-transform: rotateY(90deg) translateZ(0.75rem);
+          transform: rotateY(90deg) translateZ(0.75rem);
+}
+.home-block-right {
+  -webkit-transform: rotateY(90deg) translateZ(-0.75rem);
+          transform: rotateY(90deg) translateZ(-0.75rem);
+}
+.home-block-top {
+  -webkit-transform: rotateX(90deg) translateZ(0.75rem);
+          transform: rotateX(90deg) translateZ(0.75rem);
+}
+.home-block-bottom {
+  -webkit-transform: rotateX(90deg) translateZ(-0.75rem);
+          transform: rotateX(90deg) translateZ(-0.75rem);
+}
+h2.home-text {
+  text-align: center;
+  font-weight: bolder;
+  width: 100%;
+  left: 0;
+  font-size: 0.34rem;
+  -webkit-animation: home-text 1s;
+          animation: home-text 1s;
+  margin-top: 0.1rem;
+}
+.home-content {
+  top: 40%;
+  position: absolute;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+@-webkit-keyframes nav-list-box {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes nav-list-box {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nav-list-box {
+  padding: 0.2rem;
+  -webkit-animation: nav-list-box 0.5s;
+          animation: nav-list-box 0.5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.nav-list-item {
+  padding: 0.1rem;
+  display: block;
+  color: #757575;
+}
+a.nav-list-active {
+  color: #2196f3;
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+.log-list-item {
+  background: #ffffff;
+  padding: 0.2rem;
+  cursor: pointer;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0 1px 6px, rgba(0, 0, 0, 0.117647) 0 1px 4px;
+}
+.log-list-item:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  background: #eeeeee;
+  color: #616161;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0 3px 10px, rgba(0, 0, 0, 0.227451) 0 3px 10px;
+}
+.log-list-item-enter-active {
+  -webkit-transition: 0.5s opacity, 0.5s -webkit-transform;
+  transition: 0.5s opacity, 0.5s -webkit-transform;
+  transition: 0.5s opacity, 0.5s transform;
+  transition: 0.5s opacity, 0.5s transform, 0.5s -webkit-transform;
+}
+.log-list-item-enter {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  opacity: 0;
+}
+.log-list-item-enter-to {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+h3.log-list-item-title {
+  white-space: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+p.log-list-item-exp {
+  padding: 0.2rem 0;
+  color: #616161;
+  font-size: 0.16rem;
+  line-height: 0.26rem;
+}
+.log-list-item-manage {
+  text-align: right;
+  color: #9e9e9e;
+}
+.log-list-item-manage span {
+  margin-right: 0.1rem;
+}
+.log-list-item-manage label {
+  margin-right: 0.1rem;
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+.footer-box {
+  height: 0.2rem;
+  overflow: hidden;
+  text-align: center;
+  color: #616161;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+}
+.layout-footer-box {
+  height: 100%;
+}
+.layout-footer-height {
+  height: 0;
+}
+.layout-footer-content {
+  margin-bottom: 0;
+  min-height: 100%;
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+section.log-list-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 0.5rem;
+}
+ul.log-list-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0.2rem;
+  overflow: hidden;
+  max-width: 8.1rem;
+}
+ul.log-list-box li {
+  margin-bottom: 0.5rem;
+}
+.log-list-nav {
+  border-left: 1px solid #bdbdbd;
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+section.log-item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-top: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.log-item-box {
+  padding: 0 0.2rem;
+  max-width: 8.1rem;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0 1px 6px, rgba(0, 0, 0, 0.117647) 0 1px 4px;
+}
+h2.log-item-title {
+  font-size: 0.24rem;
+  padding: 0.1rem 0;
+}
+.log-item-info {
+  padding: 0.1rem;
+  color: #bdbdbd;
+}
+h3.log-item-title-min {
+  padding: 0.1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.16rem;
+}
+p.log-item-text {
+  text-indent: 0.2rem;
+  line-height: 0.2rem;
+  padding: 0.1rem;
+}
+/*********************************************
+ * Material Design color list
+ * all color select
+ *********************************************/
+/*********************************************
+ * config of colors
+ * 1 color of primary, it's two or three
+ * 2 color of assist
+ * 3 color of transition light
+ * 4 color of transition dark
+ *********************************************/
+/*********************************************
+ * config of font
+ * 1 font family
+ * 2 font base size
+ * 3 font size
+ *********************************************/
+/*********************************************
+ * config of icon
+ * 1 icon path
+ * 2 icon name
+ *********************************************/
+/*********************************************
+ * config of button
+ * 1 button height
+ * 2 button width of min
+ *********************************************/
+/*********************************************
+ * config of z-index
+ * 1 bottom       0  ~ 19
+ * 2 layout       20 ~ 39
+ * 3 float        40 ~ 59
+ * 4 pop box      60 ~ 79
+ * 5 top          80 ~ 99
+ *********************************************/
+/*********************************************
+ * config of animated
+ * 1 animated effect
+ *********************************************/
+/*********************************************
+ * config of other
+ * 1 circular
+ *********************************************/
+header.header-nav-box {
+  height: 0.5rem;
+  padding: 0.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.18rem;
+  position: fixed;
+  background: #fafafa;
+  z-index: 20;
+  width: 100%;
+}
+.header-nav-logo {
+  height: 100%;
+}
+.header-nav-logo img {
+  height: 0.3rem;
+  width: 0.3rem;
+  vertical-align: top;
+}
+ul.header-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 0.3rem;
+}
+ul.header-nav-list a {
+  padding: 0 0.1rem;
+  cursor: pointer;
+}
+h1.header-logo-title {
+  display: inline;
+  font-weight: bolder;
+}
+.header-nav-active a {
+  color: #2196f3;
+}
